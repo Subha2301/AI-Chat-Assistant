@@ -5,6 +5,7 @@ export const generateAIResponse = async ({ model, messages }) => {
     chatRequest: {
       model,
       messages,
+      maxTokens: 2048,
     },
   });
 
