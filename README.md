@@ -45,7 +45,7 @@ A full-stack AI Chat Assistant built using React, Node.js, Express.js, MongoDB, 
 - Vercel (Frontend)
 - Render (Backend)
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -83,7 +83,7 @@ Add any other environment variables required by your project.
 
 Start the backend and frontend separately using the appropriate npm scripts in their respective directories.
 
-## 📚 What I Learned
+##  What I Learned
 
 - Building full-stack applications with React and Node.js
 - Designing REST APIs with Express.js
@@ -92,12 +92,4 @@ Start the backend and frontend separately using the appropriate npm scripts in t
 - Integrating AI APIs into a web application
 - Deploying frontend and backend separately
 
-## 👨‍💻 Author
 
-**Subhasis Roy**
-
-- GitHub: [https://github.com/Subha2301](https://github.com/Subha2301)
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
