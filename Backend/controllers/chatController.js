@@ -2,9 +2,7 @@ import Chat from "../model/chatSchema.js"
 import Message from "../model/messageSchema.js";
 
 // getRecentChat: , getSingleChat , createChat, deleteChat
-//
 
-// req.user = user ki information hogi// last 20 chats muje fetch karni hai
 
 export const getRecentChat = async(req,res)=>{
     
@@ -59,14 +57,14 @@ export const createChat = async(req,res)=>{
     try{
          
         const {model} = req.body;
-        // opus4.8 , sol4.2 , fkljhewqoi
+        
         if(!model){
             return res.status(400).json({
                 messages: "Model name is missing"
             })
         }
 
-        // model name bheja hai ye valid hai ya nahi
+        
         
         const chats = await Chat.create({
             userId: req.user._id,

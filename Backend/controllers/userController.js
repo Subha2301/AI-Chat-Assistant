@@ -47,8 +47,7 @@ export const signup = async (req,res)=>{
 
         const {name, age, email, password} = result.data;
 
-        // https status code
-        //email wala already exist toh nahi karta
+  
 
        const user = await User.findOne({email});
        
@@ -228,8 +227,7 @@ export const logout = async (req,res)=>{
 
 export const profile = async(req,res)=>{
     try{
-        // profile ki informat send karo
-        // Database ke andar call kari padegi, us user ko search, _id, email
+        
         res.status(200).json({
             name:req.user.name,
             age: req.user.age,
@@ -265,11 +263,6 @@ export const getCurrentUsage = async (req, res) => {
 export const deleteAccount = async (req,res)=>{
     try{
         
-        // find all the chatID which belong to user
-
-        // Delete all the messages which belongs to the chatID: Messages Delete
-        // Delete all the chatID which belong to this user: Delete wo ChatID; user belong
-        // Delete user Profile: is user By its ID
     const userId = req.user._id;
 
 
