@@ -75,10 +75,6 @@ TOKEN_LIMIT=10000
 TOKEN_WINDOW_SECONDS=18000
 ```
 
-Add any other environment variables required by your project.
-
-**Important:** Never commit your `.env` file or expose API keys and secrets on GitHub.
-
 ### 4. Run the Application
 
 Start the backend and frontend separately using the appropriate npm scripts in their respective directories.
