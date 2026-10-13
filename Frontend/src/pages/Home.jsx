@@ -89,7 +89,7 @@ function Home() {
   }
 
   return (
-    <main className="flex min-h-dvh flex-col bg-[#212121] text-[#ececec] md:h-dvh md:flex-row">
+    <main className="flex min-h-dvh flex-col bg-black text-[#ececec] md:h-dvh md:flex-row">
       <ChatSidebar
         chatId={chatId}
         refreshChats={refreshChats}

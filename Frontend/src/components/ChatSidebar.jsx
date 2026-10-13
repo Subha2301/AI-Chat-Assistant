@@ -69,7 +69,7 @@ export default function ChatSidebar({ chatId, refreshChats, onChatsChanged, busy
   }
 
   return (
-    <aside className="flex w-full shrink-0 flex-col border-b border-[#2f2f2f] bg-[#171717] p-3 text-[#ececec] md:h-full md:w-64 md:border-r md:border-b-0">
+    <aside className="flex w-full shrink-0 flex-col border-b border-[#2f2f2f] bg-black p-3 text-[#ececec] md:h-full md:w-64 md:border-r md:border-b-0">
       <Link
         to="/"
         onClick={(event) => { if (busy) event.preventDefault(); }}

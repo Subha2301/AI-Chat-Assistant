@@ -247,7 +247,7 @@ export default function ChatRoom({ chatId, onChatsChanged, onBusyChange, onUsage
           type="submit"
           disabled={!draft.trim() || sending || Boolean(deletingId) || (chatId && messages === undefined)}
           aria-label="Send message"
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-xl font-semibold text-[#212121] disabled:bg-[#686868] disabled:text-[#303030]"
+          className="flex h-9 w-9 shrink-0 items-center justify-center cursor-pointer rounded-full bg-white text-xl font-semibold text-[#212121] disabled:bg-[#686868] disabled:text-[#303030]"
         >
           ↑
         </button>
