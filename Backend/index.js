@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://ai-chat-assistant-subha947.vercel.app/",
+    origin: "https://ai-chat-assistant-subha947.vercel.app",
     credentials: true,
   })
 );
