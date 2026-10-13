@@ -1,63 +1,103 @@
- AI Chat Assistant
+# &#x20;AI Chat Assistant
 
 A full-stack AI Chat Assistant built using React, Node.js, Express.js, MongoDB, and the OpenRouter API. It allows users to authenticate securely and interact with AI through a chat interface.
 
- Features
+## &#x20;Features
 
-User Authentication (Signup & Login)
+- User Authentication (Signup & Login)
+- &#x20;JWT Authentication using HTTP-only Cookies
+- &#x20;AI-powered Conversations
+- &#x20;Chat History Management
+- &#x20;User Profile Management
+- &#x20;Protected Routes
+- &#x20;REST API Integration
+- &#x20;Full-Stack Deployment
 
- JWT Authentication using HTTP-only Cookies
+## 🛠️ Tech Stack
 
- AI-powered Conversations
+**Frontend**
 
- Chat History Management
+- React
+- JavaScript
+- Axios
+- Tailwind
 
- User Profile Management
+**Backend**
 
- Protected Routes
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+- bcrypt
+- Cookie Parser
 
- REST API Integration
+**Database**
 
- Full-Stack Deployment
+- MongoDB
+- Mongoose
 
-🛠️ Tech Stack
+**AI Integration**
 
-Frontend
+- OpenRouter API
 
-React
+**Deployment**
 
-JavaScript
+- Vercel (Frontend)
+- Render (Backend)
 
-Axios
+## ⚙️ Installation & Setup
 
-Tailwind
+### 1. Clone the Repository
 
-Backend
+```bash
+git clone https://github.com/Subha2301/AI-Chat-Assistant.git
+cd AI-Chat-Assistant
+```
 
-Node.js
+### 2. Install Dependencies
 
-Express.js
+Install frontend and backend dependencies in their respective directories.
 
-REST APIs
+```bash
+npm install
+```
 
-JWT Authentication
+### 3. Configure Environment Variables
 
-bcrypt
+Create a `.env` file in the backend directory:
 
-Cookie Parser
+```env
+PORT=3000
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+OPENROUTER_API_KEY=your_openrouter_api_key
+TOKEN_LIMIT=10000
+TOKEN_WINDOW_SECONDS=18000
+```
 
-Database
+Add any other environment variables required by your project.
 
-MongoDB
+**Important:** Never commit your `.env` file or expose API keys and secrets on GitHub.
 
-Mongoose
+### 4. Run the Application
 
-AI Integration
+Start the backend and frontend separately using the appropriate npm scripts in their respective directories.
 
-OpenRouter API
+## 📚 What I Learned
 
-Deployment
+- Building full-stack applications with React and Node.js
+- Designing REST APIs with Express.js
+- Implementing JWT-based authentication
+- Working with MongoDB and Mongoose
+- Integrating AI APIs into a web application
+- Deploying frontend and backend separately
 
-Vercel (Frontend)
+## 👨‍💻 Author
 
-Render (Backend)
+**Subhasis Roy**
+
+- GitHub: [https://github.com/Subha2301](https://github.com/Subha2301)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
